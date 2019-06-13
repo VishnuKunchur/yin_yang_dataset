@@ -33,6 +33,14 @@ Linear classifiers such as logistic regression can do no better than fit a line 
 
 By varying the `size_ratio` parameter, the size of the small `yin` and `yang` "islands" can be controlled, ergo controlling the complexity of the dataset (small values of `size_ratio` make very small islands, while high values can result in constricted "straits"). A `size_ratio` greater than 0.1 is recommended for small datasets (`n` < 4000).
 
+## Attributes
+
+(1) `n` : int; the number of data points required to be generated; default = 1000
+(2) `num_target_classes` : int; value either 2 and 3; default = 2
+(3) `balanced` : boolean; available only for binary target datasets; default = True
+(4) `size_ratio` : float; value between 0 and 1; this controls complexity of the dataset. default = 0.25
+
+
 
 
 

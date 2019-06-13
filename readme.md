@@ -27,7 +27,7 @@ As learners and practitioners of data science, we seek to understand the underly
     plt.figure(figsize=(8, 8))
     plt.scatter(data[:, 0], data[:, 1], s = 5, c = list(map(cmapper, labels)))
 
-
+![](yin_yang_images/1.PNG)
     
 
 

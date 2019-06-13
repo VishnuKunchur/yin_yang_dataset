@@ -37,10 +37,10 @@ By varying the `size_ratio` parameter, the size of the small `yin` and `yang` "i
 
 `yin_yang_datagen(n = 1000, num_target_classes = 2, balanced = 1, size_ratio = 0.25)`
 
-(1) `n` : int; the number of data points required to be generated; default = 1000
+`n` : int; the number of data points required to be generated; default = 1000
 
-(2) `num_target_classes` : int; value either 2 and 3; default = 2
+`num_target_classes` : int; value either 2 and 3; default = 2
 
-(3) `balanced` : boolean; available only for binary target datasets; default = True
+`balanced` : boolean; available only for binary target datasets; default = True
 
-(4) `size_ratio` : float; value between 0 and 1; this controls complexity of the dataset. default = 0.25
+`size_ratio` : float; value between 0 and 1; this controls complexity of the dataset. default = 0.25

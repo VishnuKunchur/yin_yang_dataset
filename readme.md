@@ -11,7 +11,7 @@ As learners and practitioners of data science, we seek to understand the underly
     data.shape = (3000,2)
     labels.shape = (3000,)
 
-#### Basic Usage:
+#### Basic Usage
 
     from yin_yang import yin_yang_datagen
     data, labels = yin_yang_datagen(n = 1500, size_ratio = 0.18, num_target_classes = 2)

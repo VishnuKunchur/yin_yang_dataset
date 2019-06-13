@@ -2,7 +2,7 @@
 
 #### Introduction and Motivation
 
-    data, labels = yin_yang_datagen(n = 3000)
+    data, labels = yin_yang_datagen(n = 3000, num_target_classes = 3)
 
 ![](yin_yang_images/intro.PNG)
 

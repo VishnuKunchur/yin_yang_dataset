@@ -29,7 +29,7 @@ As learners and practitioners of data science, we seek to understand the underly
 
 ![](yin_yang_images/1.PNG)
     
-
+Linear classifiers such as logistic regression can do no better than fit a line through the 2-D space. It is inherently impossible for a linear classifier to capture the <i>yin</i> in the "yang", and the "yang" in the "yin".
 
 
 
